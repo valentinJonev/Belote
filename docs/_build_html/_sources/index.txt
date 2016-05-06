@@ -7,7 +7,7 @@
 Welcome to Belot's documentation!
 =================================
 
-Belot is an online multiplatform multiplayer card game based on AngularJS, TypeScript and ASP.NET WebAPI. This documentation explayns why and how the game was created and how to run the code. You can jump to the sections below if you want to find out something in particular or just read it all. There will be pieces of code in this documentation, but keep in mind that if you want to understand the application better, you should download the source code and read it along with the documentation.
+Belot is an online cross-platform multiplayer card game based on AngularJS, TypeScript and ASP.NET WebAPI. This documentation explayns why and how the game was created and how to run the code. You can jump to the sections below if you want to find out something in particular or just read it all. There will be pieces of code in this documentation, but keep in mind that if you want to understand the application better, you should download the source code and read it along with the documentation.
 
 .. toctree::
    :maxdepth: 2

@@ -3,17 +3,23 @@ Getting Started
 
 Downloading the source code
 ---------------------------
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet tortor nec ligula fringilla, facilisis condimentum ligula consectetur. Duis lectus dui, imperdiet eget dapibus a, tincidunt vitae sem. Cras ac finibus ligula. Vestibulum semper libero vel augue faucibus, vel ultricies nulla eleifend. Etiam rhoncus sollicitudin ipsum quis maximus. Cras sodales augue sed mi sodales ultrices. Ut dictum dictum nunc consectetur vulputate. In consectetur, nisl at sollicitudin faucibus, nulla neque tempus mauris, ut tempor lacus mauris ac massa. Donec commodo tortor eu augue tincidunt imperdiet.
+You can find the source code of the project in our `Github repository`_ . It is open source so if you find any bugs or decide to improve it we welcome you to do it. Please do keep in mind that this is school project so try to document your changes as best as you can and please contact us afterwards. Also you can use this project as a template for your own projects, but please mention us with good.
 
 Building the project
 --------------------
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam scelerisque vitae ipsum in dictum. Aenean eu finibus nibh, id faucibus elit. Sed sed lobortis libero, vitae molestie lacus. Aenean pulvinar orci erat, ut scelerisque augue vehicula sed. Curabitur ultricies vulputate ex, euismod tincidunt massa venenatis a. Donec condimentum massa id nibh ornare maximus. Praesent dapibus neque quis mauris scelerisque pharetra. Maecenas ultrices felis vel dolor sagittis, eu fringilla est fringilla. Nam ac sodales justo, nec consequat purus. Donec tincidunt laoreet mi non lobortis. In maximus placerat condimentum.
+To build the project you need to download `Visual Studio`_ with `Apache Cordova`_ tools enabled for the mobile application. We recomend using Visual Studio 2015, but you can use whatever version sutes you if it supports Apache Cordova tools.
+
+After opening the solution in VS you should see a tree structure in the Source Explorer. For a startup application you should select the Authentication server first and start it because it is crucial for the application. Then build and start the back-end and then the front-end. Also you can tweek the IP and port settings in the project settings. If you are going to build the mobile application do keep in mind that you are going to need some emulators. See the `Mobile`_ section for more information.
 
 What is this thing?
 -------------------
-Vivamus non elementum urna. Fusce mollis vel est ut sodales. Cras efficitur ligula vel dolor maximus ullamcorper. Phasellus et turpis porttitor, sagittis libero in, tempus lorem. Nunc leo tortor, congue sit amet justo quis, sollicitudin posuere tortor. Pellentesque ultricies ipsum orci, eget posuere eros varius id. Nulla dapibus consectetur rhoncus. Curabitur pulvinar tellus mauris, ac accumsan nulla venenatis at. Cras vulputate diam et sem laoreet ornare.
+The project is organised in multiple applications - authentication server, back-end, front-end and a mobile application. For every one of them you can find more information in the specific section in this documentation. But if you find something undocumented please do contact us and we will document it.
 
 How to contribute
 -----------------
-Ut ornare imperdiet dolor eget iaculis. Etiam et justo volutpat, consequat turpis non, pretium libero. Sed tristique, ipsum vitae tempus porttitor, mauris odio bibendum augue, eget tempus purus risus at libero. Pellentesque facilisis, enim vitae sagittis feugiat, nulla nisl tristique nunc, eget ultrices orci mauris eu nibh. Praesent bibendum, diam nec cursus accumsan, lorem libero pellentesque elit, a rhoncus elit dolor id elit. Proin quis turpis arcu. Aliquam cursus cursus laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut facilisis id justo ut suscipit. Proin tincidunt pulvinar posuere. Suspendisse ultrices vel lacus rutrum tristique. Duis laoreet dolor nunc, in pulvinar purus aliquam finibus. Maecenas consectetur tempus lacus vel suscipit. Aenean imperdiet tortor tortor, id efficitur mauris iaculis vitae. Donec auctor diam justo, vitae sagittis ligula ultrices sit amet.
+To contribute to the project please contact us. Maybe you have a great idea that we didn't think of or maybe it is in development. Do keep in mind that we try to keep our code clean and bug-free, so we recomend you to test your contributions carefuly and write tests for the CI platforms we are using. Also please document your code.
 
+.. _Github repository: https://github.com/valentinJonev/Belote/
+.. _Visual Studio: https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
+.. _Apache Cordova: https://cordova.apache.org/
+.. _Mobile: mobile.html

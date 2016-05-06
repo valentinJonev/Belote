@@ -3,12 +3,17 @@ About us
 
 Who are you?
 ------------
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet tortor nec ligula fringilla, facilisis condimentum ligula consectetur. Duis lectus dui, imperdiet eget dapibus a, tincidunt vitae sem. Cras ac finibus ligula. Vestibulum semper libero vel augue faucibus, vel ultricies nulla eleifend. Etiam rhoncus sollicitudin ipsum quis maximus. Cras sodales augue sed mi sodales ultrices. Ut dictum dictum nunc consectetur vulputate. In consectetur, nisl at sollicitudin faucibus, nulla neque tempus mauris, ut tempor lacus mauris ac massa. Donec commodo tortor eu augue tincidunt imperdiet.
+We are two computer science students from Bulgaria. We are currently 11-th grade and we are looking into gainig more experience. We are `Martin Dimitrov`_ and `Valentin Yonev`_ . Martin is responsible for the *awful* design of the application and I am responsible for the *buggy* code behind it. 
 
 What do you do for fun?
 -----------------------
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam scelerisque vitae ipsum in dictum. Aenean eu finibus nibh, id faucibus elit. Sed sed lobortis libero, vitae molestie lacus. Aenean pulvinar orci erat, ut scelerisque augue vehicula sed. Curabitur ultricies vulputate ex, euismod tincidunt massa venenatis a. Donec condimentum massa id nibh ornare maximus. Praesent dapibus neque quis mauris scelerisque pharetra. Maecenas ultrices felis vel dolor sagittis, eu fringilla est fringilla. Nam ac sodales justo, nec consequat purus. Donec tincidunt laoreet mi non lobortis. In maximus placerat condimentum.
+Outside of our school and job lives we like to listen to *lots* of music, watch movies, go to cafes, *bla bla bla*. But we also enjoy hiking, skiing, riding bikes and playing games. We both like extreme sports like paragliding and canoe kayak.
 
 How to contact you?
 -------------------
-Vivamus non elementum urna. Fusce mollis vel est ut sodales. Cras efficitur ligula vel dolor maximus ullamcorper. Phasellus et turpis porttitor, sagittis libero in, tempus lorem. Nunc leo tortor, congue sit amet justo quis, sollicitudin posuere tortor. Pellentesque ultricies ipsum orci, eget posuere eros varius id. Nulla dapibus consectetur rhoncus. Curabitur pulvinar tellus mauris, ac accumsan nulla venenatis at. Cras vulputate diam et sem laoreet ornare.
+Well, you can contact us by writing us an email (`Martin's email`_ , `my email`_) or by messaging us on Facebook. We will be very happy to answer your questions so you can write us about everything. Even for a beer if you are close enough to us. :) 
+
+.. _Martin Dimitrov: https://www.facebook.com/martin.dimitrov.714
+.. _Valentin Yonev: https://www.facebook.com/oklav
+.. _Martin's email: mailto:marto.dimitrov@gmail.com
+.. _my email: mailto:valentin.ionev@live.com
