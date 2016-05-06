@@ -1,0 +1,34 @@
+{
+  "name": "ng-file-model",
+  "homepage": "https://github.com/mistralworks/ng-file-model",
+  "authors": [
+    "Yoza Wiratama <Yoza Wiratama>"
+  ],
+  "description": "modeling file input with angularjs",
+  "main": "ng-file-model.js",
+  "keywords": [
+    "angular",
+    "file",
+    "reader",
+    "angular-file",
+    "ng-file-model",
+    "angular-file-model"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "fd1889b28e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fd1889b28e279944012919574bbcaaf45c1540d6"
+  },
+  "_source": "https://github.com/mistralworks/ng-file-model.git",
+  "_target": "*",
+  "_originalSource": "ng-file-model"
+}

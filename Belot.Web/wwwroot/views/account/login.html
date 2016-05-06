@@ -1,0 +1,52 @@
+﻿<!--=== Login ===-->
+<div class="log-reg-v3 content-md login">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Login</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+            <form name="loginForm" class="log-reg-block sky-form" role="form" novalidate="novalidate" ng-submit="controller.login()">
+                <div ng-hide="!controller.errorMessage" class="alert alert-danger text-center">
+                    {{controller.errorMessage}}
+                </div>
+                <section>
+                    <div class="input-group light-shadowed">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input type="text" name="username" class="form-control" placeholder="Username" ng-model="controller.loginData.userName"
+                               required ng-minlength="3" ng-maxlength="100" />
+                    </div>
+                    <div class="error-container" ng-show="loginForm.username.$invalid && loginForm.$submitted">
+                        <small for="username" class="error" ng-show="loginForm.username.$error.required">Username is required</small>
+                        <small for="username" class="error" ng-show="loginForm.username.$error.minlength">Username must be atleast 3 characters.</small>
+                        <small for="username" class="error" ng-show="loginForm.username.$error.maxlength">Username cannot be more than 100 characters</small>
+                    </div>
+                </section>
+                <section>
+                    <div class="input-group light-shadowed">
+                        <span class="input-group-addon"><i class="fa fa-unlock-alt"></i></span>
+                        <input type="password" name="password" class="form-control" placeholder="Password" ng-model="controller.loginData.password"
+                               required ng-minlength="6" ng-maxlength="100" />
+                    </div>
+                    <div class="error-container" ng-show="loginForm.password.$invalid && loginForm.$submitted">
+                        <small for="password" class="error" ng-show="loginForm.password.$error.required">Password is required</small>
+                        <small for="password" class="error" ng-show="loginForm.password.$error.minlength">Password should be at least 6 characters</small>
+                        <small for="password" class="error" ng-show="loginForm.password.$error.maxlength">Password cannot be more than 100 characters</small>
+                    </div>
+                </section>
+                <button class="btn btn-u btn-u-sea-shop btn-block margin-bottom-20 ladda-button light-shadowed btn-accent" data-style="slide-up" type="submit">
+                    <span class="ladda-label">Login</span>
+                    <span class="ladda-spinner"></span>
+                </button>
+
+                <a class="pull-right" ui-sref="{{controller.belotWebPaths.accountRegister.state}}">Register</a>
+            </form>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div><!--/end row-->
+</div>
+<!--=== End Login ===-->

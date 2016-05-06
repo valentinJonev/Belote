@@ -1,0 +1,10 @@
+C:\Projects\School\Belot\Belot\src\Belot.Database\bin\Debug\Belot.Database.dacpac
+C:\Projects\School\Belot\Belot\src\Belot.Database\bin\Debug\Belot.Database.dll
+C:\Projects\School\Belot\Belot\src\Belot.Database\bin\Debug\Belot.Database.pdb
+C:\Projects\School\Belot\Belot\src\Belot.Database\obj\Debug\Belot.Database.dll
+C:\Projects\School\Belot\Belot\src\Belot.Database\obj\Debug\Belot.Database.pdb
+C:\Projects\School\Belot\Git\src\Belot.Database\bin\Debug\Belot.Database.dacpac
+C:\Projects\School\Belot\Git\src\Belot.Database\bin\Debug\Belot.Database.dll
+C:\Projects\School\Belot\Git\src\Belot.Database\bin\Debug\Belot.Database.pdb
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\Belot.Database.dll
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\Belot.Database.pdb

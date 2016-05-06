@@ -1,0 +1,5 @@
+C:\Projects\School\Belot\Git\Belot.Backend\bin\Debug\Belot.Backend.dll
+C:\Projects\School\Belot\Git\Belot.Backend\bin\Debug\Belot.Backend.pdb
+C:\Projects\School\Belot\Git\Belot.Backend\obj\Debug\Belot.Backend.csprojResolveAssemblyReference.cache
+C:\Projects\School\Belot\Git\Belot.Backend\obj\Debug\Belot.Backend.dll
+C:\Projects\School\Belot\Git\Belot.Backend\obj\Debug\Belot.Backend.pdb

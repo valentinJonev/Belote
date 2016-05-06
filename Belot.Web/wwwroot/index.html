@@ -1,0 +1,93 @@
+﻿
+<!DOCTYPE html>
+<html ng-app="belot-web">
+<head>
+    <!-- build:baseHref -->
+    <base href="/">
+    <!-- endbuild -->
+
+
+
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>Belot</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./content/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./content/images/favicon.ico" type="image/x-icon" />
+    <!-- CSS Global Compulsory -->
+    <link href="./lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./lib/bootstrap-dialog/dist/css/bootstrap-dialog.min.css" rel="stylesheet" />
+    <!-- CSS Implementing Plugins -->
+    <link href="./lib/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet" />
+    <link href="./lib/ladda/dist/ladda-themeless.min.css" rel="stylesheet" />
+    <!-- CSS Views -->
+    <link href="./content/css/font-awesome.css" rel="stylesheet" />
+    <link href="./content/css/site.css" rel="stylesheet" />
+
+    <!-- A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more) -->
+    <script src="./lib/respond/dest/respond.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="{{controller.belotWebPaths.home.state}}">Belot</a>
+            </div>
+
+            <a id="logout" ng-show="controller.showLogout" ng-click="controller.logOut()" class="btn btn-xs btn-default navbar-right">Logout</a>
+        </div>
+    </nav>
+    <!--=== Header v5 ===-->
+    <!--=== Begin Content ===-->
+    <div id="wrap" class="container">
+        <div class="row-offcanvas row-offcanvas-left" ui-view></div>
+    </div>
+    <!--=== End Content ===-->
+
+    <footer>
+        <p class="pull-right">&copy;2016 Valentin Yonev &amp; Martin Dimitrov</p>
+    </footer>
+
+    <!--=== End Content ===-->
+    <!--=== Footer v4 ===-->
+    <!--=== End Footer v4 ===-->
+    <!-- JS Global Compulsory -->
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="./lib/blockui/jquery.blockUI.js"></script>
+    <!-- Bootstrap -->
+    <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./lib/bootstrap-dialog/dist/js/bootstrap-dialog.min.js"></script>
+    <!-- Common implementations -->
+    <!-- JS Implementing Plugins -->
+    <script src="./lib/angular/angular.min.js"></script>
+    <script src="./lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./lib/angular-cookies/angular-cookies.min.js"></script>
+    <script src="./lib/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="./lib/angular-loading-bar/build/loading-bar.min.js"></script>
+    <script src="./lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="./lib/ladda/dist/ladda.jquery.min.js"></script>
+    <script src="./lib/ladda/dist/spin.min.js"></script>
+    <script src="./lib/ladda/dist/ladda.min.js"></script>
+    <script src="./lib/ng-file-model/ng-file-model.js"></script>
+    <script src="./lib/persist-js/persist-min.js"></script>
+    <!-- SignalR -->
+    <script src="./lib/signalr/jquery.signalR.min.js"></script>
+    <script src="./lib/angular-signalr/angular-signalr.min.js"></script>
+    <script src="./lib/angular-signalr-hub/signalr-hub.min.js"></script>
+
+    <!-- Load app scripts -->
+    <script src="./scripts/app/serviceUrlConstants.js"></script>
+    <script src="./scripts/app/app.min.js"></script>
+
+    <div id="topcontrol" title="" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"></div>
+
+</body>
+</html>

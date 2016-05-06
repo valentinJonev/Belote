@@ -1,0 +1,14 @@
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Belot.Auth.Core.dll.config
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Belot.Auth.Core.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Belot.Auth.Core.pdb
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\EntityFramework.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\EntityFramework.xml
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\School\Belot\Git\Belot.Auth.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\School\Belot\Git\Belot.Auth.Core\obj\Debug\Belot.Auth.Core.csprojResolveAssemblyReference.cache
+C:\Projects\School\Belot\Git\Belot.Auth.Core\obj\Debug\Belot.Auth.Core.dll
+C:\Projects\School\Belot\Git\Belot.Auth.Core\obj\Debug\Belot.Auth.Core.pdb

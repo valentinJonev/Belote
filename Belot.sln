@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belot.WebApi", "Belot.WebApi\Belot.WebApi.csproj", "{F7DAF4DF-3B15-4F54-898C-E6C6093AB547}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Belot.Authentication", "Belot.Authentication", "{699B00CB-357A-43A5-B68A-40736B7B2155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Belot.Backend", "Belot.Backend", "{0FB6AD46-C543-4F91-A538-BFAF6A7CACBF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Belot.Web", "Belot.Web\Belot.Web.xproj", "{119C647D-2A68-4E65-B7D5-9D7AAE5E4D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belot.Backend", "Belot.Backend\Belot.Backend.csproj", "{7834D580-3DF6-4B76-9F49-249AACDFFDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belot.Auth", "Belot.Auth\Belot.Auth.csproj", "{0444829C-A9DF-481B-B676-38AD857A0E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belot.Auth.Core", "Belot.Auth.Core\Belot.Auth.Core.csproj", "{4B3FE62A-BC74-4814-B3A0-53BEC161AB53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DAF4DF-3B15-4F54-898C-E6C6093AB547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DAF4DF-3B15-4F54-898C-E6C6093AB547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DAF4DF-3B15-4F54-898C-E6C6093AB547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DAF4DF-3B15-4F54-898C-E6C6093AB547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119C647D-2A68-4E65-B7D5-9D7AAE5E4D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119C647D-2A68-4E65-B7D5-9D7AAE5E4D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119C647D-2A68-4E65-B7D5-9D7AAE5E4D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119C647D-2A68-4E65-B7D5-9D7AAE5E4D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7834D580-3DF6-4B76-9F49-249AACDFFDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7834D580-3DF6-4B76-9F49-249AACDFFDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7834D580-3DF6-4B76-9F49-249AACDFFDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7834D580-3DF6-4B76-9F49-249AACDFFDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0444829C-A9DF-481B-B676-38AD857A0E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0444829C-A9DF-481B-B676-38AD857A0E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0444829C-A9DF-481B-B676-38AD857A0E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0444829C-A9DF-481B-B676-38AD857A0E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3FE62A-BC74-4814-B3A0-53BEC161AB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3FE62A-BC74-4814-B3A0-53BEC161AB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3FE62A-BC74-4814-B3A0-53BEC161AB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3FE62A-BC74-4814-B3A0-53BEC161AB53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7DAF4DF-3B15-4F54-898C-E6C6093AB547} = {0FB6AD46-C543-4F91-A538-BFAF6A7CACBF}
+		{7834D580-3DF6-4B76-9F49-249AACDFFDA3} = {0FB6AD46-C543-4F91-A538-BFAF6A7CACBF}
+		{0444829C-A9DF-481B-B676-38AD857A0E66} = {699B00CB-357A-43A5-B68A-40736B7B2155}
+		{4B3FE62A-BC74-4814-B3A0-53BEC161AB53} = {699B00CB-357A-43A5-B68A-40736B7B2155}
+	EndGlobalSection
+EndGlobal

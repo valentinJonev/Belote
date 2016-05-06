@@ -1,0 +1,13 @@
+﻿{
+  "Debug": {
+    "belotServiceUrls": {
+      "authenticationServiceUrl": "http://localhost:12344"
+    }
+
+  },
+  "Release": {
+    "belotServiceUrls": {
+      "authenticationServiceUrl": "http://localhost:12344"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[T_GAME] (Table)
+       [dbo].[T_GAME_MODE_CARD_VALUE] (Table)
+       [dbo].[T_USER] (Table)
+       [dbo].[TD_CARD] (Table)
+       [dbo].[TD_GAME_MODE] (Table)
+       [dbo].[TM_GAME_MODE_CARD] (Table)
+       [dbo].[TM_USER_CARD] (Table)
+       [dbo].[TM_USER_GAME] (Table)
+       [dbo].[FK_T_GAME_LAST_CARD_PLAYED_TD_CARD] (Foreign Key)
+       [dbo].[FK_T_GAME_CURRENT_USER_T_USER] (Foreign Key)
+       [dbo].[FK_T_GAME_MODE_CARD_CARD_TD_CARD] (Foreign Key)
+       [dbo].[FK_T_GAME_MODE_CARD_GAME_MODE_TD_GAME_MODE] (Foreign Key)
+       [dbo].[FK_TM_GAME_MODE_CARD_TD_GAME_MODE_GAME_MODE_ID] (Foreign Key)
+       [dbo].[FK_TM_GAME_MODE_CARD_TD_CARD_CARD_ID] (Foreign Key)
+       [dbo].[FK_TM_USER_CARD_T_CARD_CARD_ID] (Foreign Key)
+       [dbo].[FK_TM_USER_CARD_T_USER_USER_ID] (Foreign Key)
+       [dbo].[FK_TM_USER_GAME_T_GAME_GAME_ID] (Foreign Key)
+       [dbo].[FK_TM_USER_GAME_T_USER_USER_ID] (Foreign Key)
+
+** Supporting actions

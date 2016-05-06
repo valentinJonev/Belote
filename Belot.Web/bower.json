@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-bootstrap": "0.14.3",
+    "angular-cookies": "1.4.7",
+    "angular-loading-bar": "0.8.0",
+    "angular-local-storage": "0.2.3",
+    "angular-signalr-hub": "^1.5.0",
+    "angular-ui-router": "^0.2.15",
+    "blockui": "*",
+    "bootstrap": "3.3.5",
+    "bootstrap-dialog": "1.34.6",
+    "jquery": "2.1.4",
+    "jquery-migrate": "1.2.1",
+    "ladda": "0.9.8",
+    "ng-file-model": "*",
+    "respond": "1.4.2",
+    "signalr": "^2.2.0"
+  },
+  "ignore": "*.ts",
+  "name": "belot-web",
+  "private": true
+}

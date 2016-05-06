@@ -1,0 +1,7 @@
+C:\Projects\School\Belot\Git\src\Belot.Database\bin\Debug\Belot.Database.dacpac
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\Model.xml
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\refactor.xml
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\postdeploy.sql
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\predeploy.sql
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\Belot.Database.dll
+C:\Projects\School\Belot\Git\src\Belot.Database\obj\Debug\Belot.Database.pdb

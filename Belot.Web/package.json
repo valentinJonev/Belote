@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "belot-web",
+  "private": true,
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-if": "2.0.0",
+    "gulp-uglify": "1.4.2",
+    "gulp-concat": "2.6.0",
+    "gulp-rimraf": "0.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-ng-config": "1.2.1",
+    "gulp-html-replace": "1.5.4",
+    "gulp-manifest": "0.1.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-sourcemaps": "1.6.0"
+  }
+}
