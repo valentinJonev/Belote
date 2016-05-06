@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Belot'
-copyright = '2016, Valentin Yonev, Martin Dimitrov'
+copyright = '2016, Valentin Yonev & Martin Dimitrov'
 author = 'Valentin Yonev, Martin Dimitrov'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -207,6 +207,7 @@ html_static_path = ['_static']
 htmlhelp_basename = 'Belotdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
+numpydoc_show_class_members = False
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
