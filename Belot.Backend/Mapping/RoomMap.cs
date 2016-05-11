@@ -29,7 +29,7 @@ namespace Belot.Backend.Mapping
 
             this.HasMany(t => t.PlayersId)
                 .WithRequired()
-                .HasForeignKey(t => t.GameId);
+                .HasForeignKey(t => t.GameFK);
         }
     }
 }

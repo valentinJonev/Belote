@@ -26,7 +26,7 @@ namespace Belot.Backend.Mapping
 
             this.HasMany(t => t.Users)
                 .WithRequired()
-                .HasForeignKey(t => t.GameId);
+                .HasForeignKey(t => t.GameFK);
 
             this.HasMany(t => t.Score)
                 .WithOptional()
