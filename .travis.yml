@@ -1,12 +1,3 @@
 
 language: CSharp
-mono:
-  - latest
-install:
-  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
-  - dnvm upgrade
-  - dnu restore
-script:
-  - dnu restore 
-  - cd Belot.Web
-  - dnx build
+solution: Belot.sln
