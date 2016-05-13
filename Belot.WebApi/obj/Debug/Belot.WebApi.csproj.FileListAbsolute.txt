@@ -63,3 +63,11 @@ C:\Projects\School\Belot\Git\Belot.WebApi\bin\System.Web.WebPages.xml
 C:\Projects\School\Belot\Git\Belot.WebApi\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\School\Belot\Git\Belot.WebApi\bin\System.Web.WebPages.Razor.xml
 C:\Projects\School\Belot\Git\Belot.WebApi\obj\Debug\Belot.WebApi.csprojResolveAssemblyReference.cache
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\EntityFramework.dll
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Belot.Auth.Core.dll
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\EntityFramework.xml
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Belot.Auth.Core.pdb
+C:\Projects\School\Belot\Git\Belot.WebApi\bin\Microsoft.AspNet.Identity.Core.xml

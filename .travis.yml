@@ -7,5 +7,6 @@ install:
   - dnvm upgrade
   - dnu restore
 script:
+  - dnu restore 
   - cd Belot.Web
   - dnx build
