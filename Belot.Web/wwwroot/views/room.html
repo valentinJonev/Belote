@@ -1,0 +1,20 @@
+﻿<div class="menu">
+    <div class="users">
+        <ul>
+            <li ng-repeat="user in roomController.users"><p>{{user.username}}</p></li>
+        </ul>
+        <button ng-click="roomController.invite()">Invite</button>
+    </div>
+    <div class="gameInfo">
+        <p>{{roomController.gameName}}</p>
+        <p>{{roomController.gameMode}}</p>
+        <input name="checkbox" type="checkbox" id="public" ng-model="roomController.isPublic" />
+        <label for="public">Public</label>
+        <button ng-click="roomController.startGame()">Start Game</button>
+    </div>
+</div>
+<div class="discord">
+    <div class="chat"></div>
+    <div class="message"></div>
+    <button ng-click="roomController.sendMessage()">Send</button>
+</div>
