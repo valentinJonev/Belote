@@ -23,25 +23,26 @@ namespace Belot.WebApi.Controllers
         }
 
         [HttpPost, Route("")]
-        public async Task<IHttpActionResult> Create()
+        public async Task<IHttpActionResult> Create(RoomViewModel model)
         {
             IPrincipal principal = RequestContext.Principal;
-            string roomId = await this.service.CreateAsync(principal);
+            int roomId = await this.service.CreateAsync(model, principal);
             return Ok(roomId);
         }
 
-        [HttpGet, Route("{roomId:string}")]
-        public async Task<IHttpActionResult> Details([FromUri][Required]string roomId)
+        [HttpGet, Route("{roomId:int}")]
+        public async Task<IHttpActionResult> Details([FromUri][Required]int roomId)
         {
             RoomViewModel viewModel = await this.service.GetAsync(roomId);
             return Ok(viewModel);
         }
 
-        [HttpPost, Route("{roomId:string}/join")]
-        public void Join([FromUri][Required]string roomId)
+        [HttpPost, Route("{roomId:int}/join")]
+        public async Task<IHttpActionResult> Join([FromUri][Required]int roomId)
         {
             IPrincipal principal = RequestContext.Principal;
-            this.service.Join(roomId, principal);
+            await this.service.Join(roomId, principal);
+            return this.Ok();
         }
     }
 }

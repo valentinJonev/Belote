@@ -12,19 +12,16 @@ namespace Belot.WebApi.Controllers
     public class GameController : BaseApiController
     {
         private GameService gameService;
-        private GameValidationService validationService;
 
-        public GameController(GameService gameService, GameValidationService validationService)
+        public GameController(GameService gameService)
         {
             this.gameService = gameService;
-            this.validationService = validationService;
         }
 
         [HttpPost, Route("")]
         public async Task<IHttpActionResult> Create(GameCreateModel model)
         {
             IPrincipal principal = RequestContext.Principal;
-            await validationService.ValidateForCreate(principal, model);
 
             int gameId = await gameService.CreateAsync(model, principal);
 
@@ -32,16 +29,23 @@ namespace Belot.WebApi.Controllers
         }
 
         [HttpGet, Route("{id:int}")]
-        public async Task<IHttpActionResult> Details(int id, [FromUri][Required]string user_id)
+        public async Task<IHttpActionResult> Details(int id)
         {
-            string userId = user_id;
-
             IPrincipal principal = RequestContext.Principal;
-            await validationService.ValidateForDetails(principal, userId, id);
 
-            GameDetailsModel model = await gameService.GetAsync(id, userId);
+            GameDetailsModel model = await this.gameService.GetAsync(id);
 
             return Ok(model);
+        }
+
+        [HttpPost, Route("{id:int}/playCard")]
+        public async Task<IHttpActionResult> PlayCard(int cardId)
+        {
+            IPrincipal principal = RequestContext.Principal;
+
+            await this.gameService.PlayCard(cardId, principal);
+
+            return this.Ok();
         }
     }
 }

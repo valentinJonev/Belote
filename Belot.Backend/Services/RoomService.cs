@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Belot.Backend.Common;
 using Belot.Backend.Context;
+using Belot.Backend.Models;
 using Belot.Backend.ViewModels;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -20,25 +21,53 @@ namespace Belot.Backend.Services
         {
             this.context = context;
         }
-        public async Task<string> CreateAsync(IPrincipal principal)
+        public async Task<int> CreateAsync(RoomViewModel model, IPrincipal principal)
         {
-#warning TODO: implement room id generator and insert the room in DB
-            string roomId = "asdf";
-            this.Join(roomId, principal);
-            return roomId;
-        }
-
-        public async Task<RoomViewModel> GetAsync(string roomId)
-        {
-#warning TODO: Get the room details and return them in the view model
-            return new RoomViewModel();
-        }
-
-        public async Task Join(string roomId, IPrincipal principal)
-        {
-#warning TODO: implement join 
-
             IdentityUser user = await context.Users.SingleAsync(x => x.UserName == principal.Identity.Name);
+
+            User player = await context.Players.Where(t => t.UserId == user.Id).FirstOrDefaultAsync();
+
+            Room room = new Room()
+            {
+                Name = model.Name,
+                IsChatAvaiable = model.IsChatAvaiable
+            };
+            context.Rooms.Add(room);
+            await context.SaveChangesAsync();
+
+            return room.Id;
+        }
+
+        public async Task<RoomViewModel> GetAsync(int roomId)
+        {
+            Room room = await context.Rooms.Where(t => t.Id == roomId).FirstOrDefaultAsync();
+            List<UserViewModel> players = new List<UserViewModel>();
+            foreach (User player in room.PlayersId)
+            {
+                UserViewModel playerModel = new UserViewModel();
+                playerModel.UserId = player.UserId;
+
+                players.Add(playerModel);
+            }
+            RoomViewModel model = new RoomViewModel()
+            {
+                IsChatAvaiable = room.IsChatAvaiable,
+                Name = room.Name,
+                Id = room.Id,
+                Players = players
+            };
+
+            return model;
+        }
+
+        public async Task Join(int roomId, IPrincipal principal)
+        {
+            IdentityUser user = await context.Users.SingleAsync(x => x.UserName == principal.Identity.Name);
+
+            User player = await context.Players.Where(t => t.UserId == user.Id).FirstOrDefaultAsync();
+
+            player.GameFK = roomId;
+            await context.SaveChangesAsync();
         }
     }
 }

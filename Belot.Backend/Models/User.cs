@@ -8,9 +8,13 @@ namespace Belot.Backend.Models
 {
     public class User
     {
+        public User(string userId)
+        {
+            this.UserId = userId;
+        }
         public int Id { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public int GameFK { get; set; }
     }

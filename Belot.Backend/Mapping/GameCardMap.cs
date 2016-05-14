@@ -9,9 +9,9 @@ using Belot.Backend.Models;
 
 namespace Belot.Backend.Mapping
 {
-    public class GameMap : EntityTypeConfiguration<Game>
+    public class GameCardMap : EntityTypeConfiguration<GameCard>
     {
-        public GameMap()
+        public GameCardMap()
         {
             this.HasKey(t => t.Id);
 
@@ -19,25 +19,21 @@ namespace Belot.Backend.Mapping
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .IsRequired();
 
-            this.Property(t => t.ModeFK)
+            this.Property(t => t.Turn)
                 .IsRequired();
 
-            this.ToTable("T_GAME");
+            this.ToTable("TM_GAME_CARD");
 
-            this.HasMany(t => t.Users)
-                .WithRequired()
-                .HasForeignKey(t => t.GameFK);
-
-            this.HasMany(t => t.Score)
-                .WithOptional()
-                .HasForeignKey(t => t.GameFK);
-
-            this.HasRequired(t => t.Mode)
+            this.HasRequired(t => t.Card)
                 .WithMany()
-                .HasForeignKey(t => t.ModeFK);
+                .HasForeignKey(t => t.CardFK);
 
-            this.HasMany(t => t.PlayedCards)
-                .WithOptional()
+            this.HasRequired(t => t.Player)
+                .WithMany()
+                .HasForeignKey(t => t.PlayerFK);
+
+            this.HasRequired(t => t.Game)
+                .WithMany()
                 .HasForeignKey(t => t.GameFK);
         }
     }

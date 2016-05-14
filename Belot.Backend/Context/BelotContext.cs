@@ -29,6 +29,7 @@ namespace Belot.Backend.Context
         public DbSet<Card> Cards { get; private set; }
         public DbSet<CardValue> CardValues { get; set; }
         public DbSet<Score> Scores { get; set; }
+        public DbSet<User> Players { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

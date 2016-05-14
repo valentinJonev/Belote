@@ -17,6 +17,10 @@ namespace Belot.Backend.Models
 
         public GameMode Mode { get; set; }
 
+        public ICollection<GameCard> PlayedCards { get; set; }
+
+        public int CurrentTurn { get; set; }
+
         public int ModeFK { get; set; }
     }
 }

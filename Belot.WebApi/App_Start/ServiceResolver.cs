@@ -71,7 +71,6 @@ namespace Belot.WebApi.App_Start
             var container = new UnityContainer();
 
             container.RegisterType<GameService>(new HierarchicalLifetimeManager());
-            container.RegisterType<GameValidationService>(new HierarchicalLifetimeManager());
             container.RegisterType<RoomService>(new HierarchicalLifetimeManager());
 
             container.RegisterType<GameController>(new HierarchicalLifetimeManager());
