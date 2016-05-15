@@ -15,5 +15,5 @@ Well, you can contact us by writing us an email (`Martin's email`_ , `my email`_
 
 .. _Martin Dimitrov: https://www.facebook.com/martin.dimitrov.714
 .. _Valentin Yonev: https://www.facebook.com/oklav
-.. _Martin's email: mailto:marto.dimitrov@gmail.com
+.. _Martin's email: mailto:marto.dimitrov@mail.bg
 .. _my email: mailto:valentin.ionev@live.com
