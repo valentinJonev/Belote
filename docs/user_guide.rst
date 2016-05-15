@@ -1,7 +1,7 @@
 User guide
 ==========
 
-This is the user guide
+Welcome to our Belot Game. Here you'll find all the basic information you need to get set up and start playing. 
 
 Start menu
 ----------
